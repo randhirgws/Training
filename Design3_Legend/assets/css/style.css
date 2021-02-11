@@ -1,0 +1,248 @@
+.div1{
+    width:100%;
+    height:40px;
+    background-color:yellow;
+}
+.pageFont{
+    margin-top:10px;
+    text-align: center;
+}
+
+.div1_p1{
+    width:200px;
+    height:40px;
+    position: absolute;
+    margin-left:150px;
+    font-family: 'Roboto Slab', serif;
+}
+.div1_p2{
+    width:670px;
+    height:40px;
+    position: absolute;
+    margin-left:830px;
+    margin-top:40x;
+    font-family: 'Roboto Slab', serif;
+}
+#tag1{
+    color:yellow;
+}
+.menuBtn{
+    width:110px;
+    height:40px;
+    font-family: 'Roboto Slab', serif;
+    border:none;
+    outline:0;
+    background-color:yellow;
+}
+.div2{
+    width:100%;
+    height:600px;
+    background-image:linear-gradient(#034656,#1a383f);
+}
+.div2_p1{
+    width:100%;
+    height:50px;
+    font-size:35px;
+    text-align: center;
+    margin-top: 130px;
+}
+.div2_p2{
+    width:100%;
+    height:30px;
+    font-size:25px;
+    text-align: center;
+    margin-top: 30px;
+}
+.div2_p3{
+    width:100%;
+    height:50px;
+    margin-top:4px;
+    text-align: center;
+    line-height: 20px;
+}
+.div2_p4{
+    width:100%;
+    height:50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.div2_inpBox{
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+}
+.div2_inpBtn{
+    font-size: 22px; 
+    background-color:yellow;
+    font-family: 'Roboto Slab', serif;
+}
+.div2_icon{
+    margin-left:30px;
+    font-size:30px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color:white;
+    background-color: #1A5D6D;
+  }
+.div3{
+    width:100%;
+    height:380px;
+    background-image:linear-gradient(#b1953b,#FDC300);
+}
+.div3_p1{
+    width:100%;
+    height:50px;
+    text-align: center;
+    margin-top: 100px;
+    font-size:30px;
+    color:#D5D7E1;
+    font-family: 'Roboto Slab', serif;
+}
+.div3_p2{
+    width:100%;
+    height:50px;
+    text-align: center;
+    font-size:30px;
+    color:#D5D7E1;
+    font-family: 'Roboto Slab', serif;
+}
+.div3_p3{
+    width:100%;
+    height:50px;
+    text-align: center;
+    font-size:30px;
+    color:#D5D7E1;
+    font-family: 'Roboto Slab', serif;
+}
+.div4{
+    width:100%;
+    height:250px;
+}
+.portICon{
+    text-align:center;
+    margin-top:40px;
+    font-size:80px;
+}
+.port{
+    width:60px;
+    height:60px;
+    border:solid;
+    border-radius: 50px;
+    background-color:black;
+}
+.portTxt{
+    text-align:center;
+    margin-top:30px;
+    font-size:34px;
+}
+.div5{
+    width:955px;
+    height:1200px;
+    margin-left:280px;
+}
+.div5-b1{
+    width:300px;
+    height:400px;
+}
+.div5-b2{
+    width:300px;
+    height:400px;
+    margin-left:20px;
+}
+.div5-b3{
+    width:300px;
+    height:400px;
+    margin-left:20px;
+}
+.div5-b4{
+    width:300px;
+    height:400px;
+    margin-top:20px;
+}
+.div5-b5{
+    width:300px;
+    height:400px;
+    margin-left:20px;
+}
+.div5-b6{
+    width:300px;
+    height:400px;
+    margin-left:20px;
+}
+.div5b1_head{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+.div5b1_content{
+    font-family: 'Roboto Slab', serif;
+    text-align:justify;
+}
+.div5b1_capt{
+    font-family: 'Roboto Slab', serif;
+    color:#ebeb0b;
+}
+.portImages{
+    width:300px;
+    height:200px;
+}
+.settingIcon{
+    background-color: black;
+    color:white;
+    font-size:80px;
+}
+.div7{
+    width:920px;
+    height:310px;
+    margin-left:280px;
+}
+.div7-b1{
+    width:210px;
+    height:300px;
+    background-color:rgb(241, 237, 237);
+}
+.div7-b2{
+    width:210px;
+    height:300px;
+    margin-left:20px;
+    background-color:rgb(241, 237, 237);
+}
+.div7-b3{
+    width:210px;
+    height:300px;
+    margin-left:20px;
+    background-color:rgb(241, 237, 237);
+}
+.div7-b4{
+    width:210px;
+    height:300px;
+    margin-left:20px;
+    background-color:rgb(241, 237, 237);
+}
+.tabIcon1{
+    font-size:20px;
+    background:none;
+    margin-right:70px;
+    color:#E0BC28;
+}
+.tabCaption{
+    font-family: 'Roboto Slab', serif;
+    color:#ebeb0b;
+    text-align:center;
+    color:black;
+}
+.tabContent{
+    font-size:15px;
+    margin-left:6px;
+}
+.div8{
+    width:100%;
+    height:100px;
+    background-color:rgb(209, 209, 20);
+    margin-top:100px;
+}
