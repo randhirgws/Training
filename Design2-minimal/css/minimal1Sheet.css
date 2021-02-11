@@ -1,0 +1,119 @@
+.div1{
+   width:1200px;
+   height:800px;
+   background-image:linear-gradient(#a9b488,#7b865a);
+   margin-left:150px;
+}
+.imageDiv{
+    width: 890px;
+    height:450px;
+    position:relative;
+    margin-top:20px;
+}
+.div3{
+    margin-left:600px;
+    text-align: center;
+    margin-top:30px;
+}
+.socialMedia{
+    margin-left:340px;
+    margin-top:170px;
+   
+}
+#imgTxt1{
+    font-size: 45px;
+    font-weight: bolder;
+    color:rgb(99, 98, 98);
+    font-family: 'Noto Serif', serif;
+    margin-left:280px;
+    margin-top:200px;
+    line-height: 15px;
+}
+#imgTxt2{
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(122, 122, 122);
+    font-family: 'Noto Serif', serif;
+    margin-left:330px;
+    line-height: 15px;
+}
+.BlackClr{
+    width:27px;
+    height: 230px;
+    background-color:black;
+    margin-left:500px;
+    margin-top:130px;
+}
+.clr1{
+    background-color:black;
+}
+h2,h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 28px;
+    line-height: 5px;
+}
+.quote{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left:330px;
+    margin-top:420px;
+    font-style: italic;
+    font-weight: bold;
+}
+#menuBtn1{
+    width:150px;
+    border:none;
+    border-right:solid;
+    border-width:3px;
+    border-color: black;
+    background-color: transparent; 
+    font-size:medium;
+    color:rgb(110, 108, 108);
+    outline:0;
+}
+#menuBtn2{
+    width:100px;
+    border:none;
+    border-width:3px;
+    border-color: black;
+    background-color: transparent; 
+    font-size:medium;
+    color:rgb(110, 108, 108);
+    outline:0;
+}
+.homeBtn{
+    border:solid;
+    border-color:black;
+    margin-left:100px;
+}
+.minimal1{
+    width:100%;
+    height:auto;
+    margin-top:100px;
+    margin-left:310px;
+    box-shadow: 10px 10px 5px rgb(117, 117, 117);
+}
+.menus{
+    width:590px;
+    height:100px;
+    margin-top:130px;
+    margin-left:310px;
+
+}
+.inlineBlock{
+    display: inline-block;
+}
+.inline{
+    display:inline;
+}
+.staticPos{
+    position:static;
+}
+.relativePos{
+    position: relative;;
+}
+.absoulutePos{
+    position:absolute;
+}
+.fixedPos{
+    position:fixed;
+}
