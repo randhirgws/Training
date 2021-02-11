@@ -1,0 +1,24 @@
+.inline{
+    display:inline;
+}
+.inlineBlock{
+    display:inline-block;
+}
+.absolute{
+    position:absolute;
+}
+.fiexd{
+    position:fixex;
+}
+.static{
+    position:static;
+}
+.relative{
+    position:relative;
+}
+.inherit{
+    position:inherit;
+}
+.initial{
+    position:initial;
+}

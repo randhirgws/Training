@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calender</title>
+    <link rel="stylesheet" href="..\assets\css\style.css"\>
+    <link rel="stylesheet" href="..\assets\css\disp&pos.css"\>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!--css icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="div1">
+    <div>
+        <div class="calendarText">CALENDAR</div>
+        <div class="prevMonth inlineBlock absolute"><i class="fa fa-angle-left" onclick="prevMonth()"></i></div>
+        <div class="inlineBlock absolute" id="currentMonth"></div>
+        <div class="nextMonth inlineBlock absolute"><i class="fa fa-angle-right" onclick="nextMonth()"></i></div>
+        <div class="inlineBlock" id="dispCurrentTime"></div>
+    </div>
+    <div>
+       
+        <div class="div2 absolute fixed">
+            <div class="weekDiv">
+                <div class="dayTab inlineBlock ">SUN</div>
+                <div class="dayTab inlineBlock ">MON</div>
+                <div class="dayTab inlineBlock">TUE</div>
+                <div class="dayTab inlineBlock ">WED</div>
+                <div class="dayTab inlineBlock ">THU</div>
+                <div class="dayTab inlineBlock ">FRI</div>
+                <div class="dayTab inlineBlock ">SAT</div>
+            </div>
+            <div class="DateBlock inlineBlock fixed" id="dateIndex"></div>
+        </div>
+      
+    </div>
+</div>
+<script>
+   $(document).ready(function(){
+        showDate();
+    });
+</script>
+
+<script src="..\assets\js\model.js"></script>
+</body>
+</html>
