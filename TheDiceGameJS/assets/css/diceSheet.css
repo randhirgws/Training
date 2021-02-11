@@ -1,0 +1,42 @@
+.mainDiv{
+    width:100%;
+    height:730px;
+    border:solid;
+    border:black;
+    border-width: 1px;
+    background-image:linear-gradient(#34353E,#34353E);
+}
+.head1{
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    text-align: center;
+    color:#4FD497;
+    margin-top:80px;
+}
+.playerNames{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color:#4FD497;
+
+}
+#plyr2{
+    margin-left:300px;
+}
+.diceTab{
+    margin-left:470px;
+}
+.dice{
+    width:100px;
+    height:100px;
+    background-color:#860012;
+    border:solid;
+    border-color:yellow;
+    margin-left:90px;
+}
+#diceImage{
+    width:200px;
+    height:200px;
+}
+#disp2{
+    margin-left:220px;
+}

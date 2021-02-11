@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DiceGame</title>
+        <link rel="stylesheet" href="..\css\diceSheet.css">
+        <link rel="stylesheet" href="..\css\disp&pos.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <!--jquery js link-->
+        <script src="..\js\shuffleDice.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="mainDiv absolute">
+            <h1 class="head1" id="result">Refresh Me</h1>
+           
+            <p ></p>
+            <div class="playerNames">
+                <h5 class="inlineBlock" id="plyr1">Player 1</h5>
+                <h5 class="inlineBlock" id="plyr2">Player 2</h5>
+            </div>
+            <div class="diceTab">
+                <div class="dice inlineBlock" id="disp1"></div>
+                <div class="dice inlineBlock" id="disp2"></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                diceShuffle();
+            });
+        </script>
+      
+    </body>
+</html>
